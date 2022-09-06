@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDDDValueObjects", "DemoDDDValueObjects\DemoDDDValueObjects.csproj", "{5E0B2112-43D8-4FC7-B83D-11939A16F93E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDDDValueObjectsWithRecords", "DemoDDDValueObjectsWithRecords\DemoDDDValueObjectsWithRecords.csproj", "{3906D2C3-7FED-4EFC-9B73-99AACF2E6740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E0B2112-43D8-4FC7-B83D-11939A16F93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0B2112-43D8-4FC7-B83D-11939A16F93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0B2112-43D8-4FC7-B83D-11939A16F93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0B2112-43D8-4FC7-B83D-11939A16F93E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3906D2C3-7FED-4EFC-9B73-99AACF2E6740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3906D2C3-7FED-4EFC-9B73-99AACF2E6740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3906D2C3-7FED-4EFC-9B73-99AACF2E6740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3906D2C3-7FED-4EFC-9B73-99AACF2E6740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5E152BF-F556-45EA-823B-6A7D473E1A96}
+	EndGlobalSection
+EndGlobal

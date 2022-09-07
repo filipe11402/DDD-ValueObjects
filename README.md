@@ -2,7 +2,7 @@
 
 ## Introduction
 Different approaches on how to create Value Objects regarding DDD aspect.
-All code that we talk about is present 
+All code that we talk about is present in this repo
 
 ## What is a value object?
 ValueObjects allow you to represent simple primitive types such as `string` or `double` in your system, but in a more comprehensive way.

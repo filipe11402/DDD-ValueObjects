@@ -1,29 +1,21 @@
-﻿using DemoDDDValueObjectsWithRecords.ValueObjects;
+﻿using DemoDDDValueObjects.Entities;
+using DemoDDDValueObjects.ValueObjects;
 
-var firstCarBrand = new CarBrand("Ferrari");
-var matchingFirstCarBrand = new CarBrand("Ferrari");
+var price = new Price(20, "EUR");
+var otherPrice = new Price(30, "USD");
 
-var secondCarBrand = new CarBrand("Porsche");
-var matchingSecondCarBrand = new CarBrand("Porsche");
+var firstProduct = new Product(Guid.NewGuid(), "Toilet paper", price);
+
+var secondProduct = new Product(Guid.NewGuid(), "Water bottle", price);
+
+var thirdProduct = new Product(Guid.NewGuid(), "Bubble Gum", otherPrice);
 
 //True
-Console.WriteLine(firstCarBrand == matchingFirstCarBrand);
-Console.WriteLine(secondCarBrand == matchingSecondCarBrand);
+Console.WriteLine(firstProduct.HaveSamePrice(secondProduct));
+Console.WriteLine(secondProduct.HaveSamePrice(firstProduct));
 
 Console.WriteLine("--------------------------");
 
 //False
-Console.WriteLine(firstCarBrand == secondCarBrand);
-Console.WriteLine(matchingFirstCarBrand == matchingSecondCarBrand);
-
-Console.WriteLine("--------------------------");
-
-//True
-Console.WriteLine(firstCarBrand.Equals(matchingFirstCarBrand));
-Console.WriteLine(secondCarBrand.Equals(matchingSecondCarBrand));
-
-Console.WriteLine("--------------------------");
-
-//False
-Console.WriteLine(firstCarBrand.Equals(matchingSecondCarBrand));
-Console.WriteLine(secondCarBrand.Equals(matchingFirstCarBrand));
+Console.WriteLine(thirdProduct.HaveSamePrice(firstProduct));
+Console.WriteLine(thirdProduct.HaveSamePrice(secondProduct));

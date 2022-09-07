@@ -1,4 +1,4 @@
-﻿namespace DemoDDDValueObjectsWithRecords.ValueObjects;
+﻿namespace DemoDDDValueObjects.ValueObjects;
 
 public abstract class ValueObject : IEquatable<ValueObject>
 {

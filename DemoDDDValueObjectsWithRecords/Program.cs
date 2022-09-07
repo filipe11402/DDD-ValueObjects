@@ -11,11 +11,10 @@ var thirdProduct = new Product(Guid.NewGuid(), "Bubble Gum", otherPrice);
 
 //True
 Console.WriteLine(firstProduct.HaveSamePrice(secondProduct));
+Console.WriteLine(secondProduct.HaveSamePrice(firstProduct));
 
 Console.WriteLine("--------------------------");
 
 //False
 Console.WriteLine(thirdProduct.HaveSamePrice(firstProduct));
 Console.WriteLine(thirdProduct.HaveSamePrice(secondProduct));
-
-Console.WriteLine("--------------------------");

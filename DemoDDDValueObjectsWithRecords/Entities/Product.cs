@@ -19,8 +19,7 @@ public class Product
         => Price.Equals(other.Price);
 }
 
+//UNCOMMENT ONE OR ANOTHER AND SEE WHAT HAPPENS
 //public record Price(double Amount, string Currency);
-
-//TODO: showcase with Create static method
 
 public record struct Price(double Amount, string Currency);
